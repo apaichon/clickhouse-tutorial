@@ -1,0 +1,19 @@
+{
+  "name": "fake-data",
+  "version": "1.0.0",
+  "description": "Fake data to Clickhouse Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apaichon Punopas",
+  "license": "MIT",
+  "dependencies": {
+    "@clickhouse/client": "^0.2.10",
+    "clickhouse": "^2.6.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}
