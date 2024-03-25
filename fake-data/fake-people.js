@@ -43,8 +43,9 @@ async function insertData(data) {
   });
 }
 // Starts the timer 
-console.time('generate data'); 
+
 (async () => {
+  console.time('generate data'); 
   const totalPeople = 1_000_000; // Change this to your desired number of people
   const peopleData = await generatePeopleData(totalPeople);
   console.timeEnd('generate data'); 
@@ -54,3 +55,4 @@ console.time('generate data');
   console.log(`Successfully inserted ${totalPeople} people data into ClickHouse table.`);
   
 })();
+
